@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#7EE8FA">
+<title>Nivi's Reading Games</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    min-height: 100%;
+    font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    background: linear-gradient(180deg, #7EE8FA 0%, #FFD36E 100%);
+    color: #2b1a08;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 24px 20px;
+    text-align: center;
+  }
+  h1 { font-size: clamp(2rem, 8vw, 3.2rem); margin-bottom: 8px; }
+  p { font-size: 1.15rem; margin-bottom: 28px; }
+  a.play {
+    display: inline-block;
+    background: #FF6B4A;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 22px 36px;
+    border-radius: 24px;
+    box-shadow: 0 8px 0 #c4452c;
+  }
+  a.play:active { transform: translateY(4px); box-shadow: 0 4px 0 #c4452c; }
+</style>
+</head>
+<body>
+  <h1>Nivi's Reading Games</h1>
+  <p>Tap a game to play.</p>
+  <a class="play" href="word-zap/">Play Word Zap!</a>
+</body>
+</html>
